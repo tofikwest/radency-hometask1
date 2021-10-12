@@ -1,0 +1,103 @@
+#table-heading {
+  text-align: center;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.table-main > * {
+  margin-bottom: 10px;
+}
+
+.table-main .row.header {
+  background-color: rgb(77, 77, 77);
+  font-weight: bold;
+  color: #fff;
+}
+
+.table-main .row.item {
+  background-color: rgb(116, 116, 116);
+  color: rgb(0, 0, 0);
+}
+
+.table-main .row > * {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.table-main .row > * > img {
+  margin-right: 5px;
+  width: 30px;
+  height: auto;
+}
+
+.table-main .row .content {
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.table-main .row .name,
+.table-main .row .category {
+  text-transform: capitalize;
+  padding: 12px;
+}
+
+.table-main .row .controls img {
+  cursor: pointer;
+}
+
+.table-main .row input,
+.table-main .row textarea {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.table-main .row textarea {
+  height: 50px;
+  margin-left: 20px;
+}
+.table-main .row select {
+  width: 80%;
+}
+
+#add-btn,
+#form-submit {
+  border: none;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+input {
+  max-width: 100%;
+}
+
+#add-btn {
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  background-image: url('images/add.svg');
+}
+
+#form-submit {
+  border-radius: 0px;
+  background-image: url('images/ok.svg');
+}
+
+html {
+  font-size: 16px;
+  padding: 40px 0;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
